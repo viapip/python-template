@@ -1,0 +1,14 @@
+# Configuration example
+app:
+  name: "Python Template"
+  version: "1.0.0"
+
+# Logging settings
+logging:
+  level: "INFO"
+  file: "logs/app.log"
+
+# Other settings
+settings:
+  timeout: 30
+  retry_count: 3
